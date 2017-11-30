@@ -2596,15 +2596,21 @@ header .bk-nav .helplist .more-list-content {
     margin: auto;
 }
 
+.white {
+    color: #fff;
+    text-align: left;
+}
+
 .bk-index .bk-eight-function .eight-function-container .function-list-box {
     height: 211px;
     border: 1px solid #585a61;
     margin-right: -1px;
     overflow: hidden;
     cursor: pointer;
-    width: 25%;
+    width: 33.33%;
     float: left;
-    text-align: center;
+    padding: 35px 35px;
+    text-align: left;
 }
 
 .bk-index .bk-eight-function .eight-function-container .function-list-box:hover .hover-hid-box {
