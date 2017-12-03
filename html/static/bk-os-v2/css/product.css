@@ -769,10 +769,11 @@ header .bk-nav .helplist .more-list-content {
 
 /* 底部 */
 
+
 .bk-footer {
     min-width: 1180px;
     width: 100%;
-    height: 320px;
+    height: 100px;
     background: #090b1a;
 }
 
