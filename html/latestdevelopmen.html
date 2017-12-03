@@ -8,24 +8,14 @@
     <!-- 公共css -->
     <title>客户案例|和动力</title>
     <!-- 相应页面css -->
-    <link rel="stylesheet" href="./static/bk-os-v2/css/jquery.mCustomScrollbar.css?v=3.0" />
     <link rel="stylesheet" href="./static/bk-os-v2/css/bootstrap.min.css?v=3.0">
-    <link rel="stylesheet" href="./static/bk-os-v2/css/product.css?v=3.0">
+    <link rel="stylesheet" href="./static/bk-os-v2/css/index.css?v=3.0">
     <link href="./static/bk-os-v2/css/nav.css?v=3.0" rel="stylesheet">
     <link href="img/logo/logo.png" rel="Shortcut Icon">
-    <link href="./static/bk-os-v2/css/font-awesome.css?v=3.0" rel="stylesheet">
-    <link rel="stylesheet" href="./static/bk-os-v2/css/jquery.mCustomScrollbar.css" />
     <style>
-    header .bk-nav li>.bk-nav-list.on.help-hover {
-        color: #9b9ca8;
-    }
-
-    .my-btn-default {
-        color: #333;
-        background-color: #fff;
-        width: 50px;
-        height: 55px;
-    }
+    [v-cloak] {
+           display:none;
+        }
     </style>
 </head>
 
@@ -39,10 +29,25 @@
             <li><a href="index.html" class="bk-nav-list active">首页</a></li>
             <li><a href="coursesystem.html" class="bk-nav-list">专业课程体系</a></li>
             <li><a href="latestdevelopmen.html" class="bk-nav-list">客户案例</a></li>
-            <li><a href="customercase.html" target="_blank" class="bk-nav-list">论坛推广课</a></li>
+            <li><a href="bbspromotion.html" class="bk-nav-list">论坛推广课</a></li>
         </ul>
     </header>
     <!-- bk-header end -->
+    <!-- 1 -->
+    <div class="bk-banner-carousel">
+        <div id="myCarousel" class="carousel slide ">
+          
+            <!-- 轮播（Carousel）项目 -->
+            <div class="carousel-inner">
+                <div class="item active product-show-box">
+                    <a href="coursesystem.html" class="hover-hook">  
+                           <img class="banner-item" src="img/logo/logo4.jpg">
+                        </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 1 end-->
     <!-- bk-product start -->
     <div class="bk-product">
         <!-- bk-banner start -->
@@ -51,13 +56,7 @@
         <div class="row" style="text-align: center; margin-top:50px ">
             <div class="container">
                 <div class=row>
-                    <button class="btn my-btn-default">
-                        <img style="transform:rotate(180deg)" data-v-0c95f286="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAATCAYAAABGKffQAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpBMzk1MEU5REVDMDkxMUU2OTkxMUQ3Q0FCREJGNDMwOSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpBMzk1MEU5RUVDMDkxMUU2OTkxMUQ3Q0FCREJGNDMwOSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkEzOTUwRTlCRUMwOTExRTY5OTExRDdDQUJEQkY0MzA5IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkEzOTUwRTlDRUMwOTExRTY5OTExRDdDQUJEQkY0MzA5Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+jp+TyAAAAPNJREFUeNqEkjEPwUAYhk9d9C8Y+AUkYjdIjCYMFiJ2A5v+gVZisLAyMGIjkZhETBaJ3cBfMNdzSSuN6N0lT76med67r19PuK67harv+8KEJYRYwcLzvI4wrIRKIOZ4PsDUcZyRVlaLQJpygj2BvlYOAinKGR4Emlo5ElItSQIVoxwElpQ8lAi91Tsr7mMQ2pQj3AhmtDtHThhQVP89yzRbTphQnrAxysHOWWho20AcU2pQ5oSX1IjhNArhNGSMGM65GH0vfyTtH7Qiorobd7j8E79ycOuuMI+7RGolbduuU9cwRJzpxqh6bkEXcWea+UeAAQB9D4Bx2+00xAAAAABJRU5ErkJggg==">
-                    </button>
                     <span style="font-size: 30px; margin: 0px 30px;">成功案例</span>
-                    <button class="btn my-btn-default">
-                        <img data-v-0c95f286="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAATCAYAAABGKffQAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDpBMzk1MEU5REVDMDkxMUU2OTkxMUQ3Q0FCREJGNDMwOSIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDpBMzk1MEU5RUVDMDkxMUU2OTkxMUQ3Q0FCREJGNDMwOSI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkEzOTUwRTlCRUMwOTExRTY5OTExRDdDQUJEQkY0MzA5IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOkEzOTUwRTlDRUMwOTExRTY5OTExRDdDQUJEQkY0MzA5Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+jp+TyAAAAPNJREFUeNqEkjEPwUAYhk9d9C8Y+AUkYjdIjCYMFiJ2A5v+gVZisLAyMGIjkZhETBaJ3cBfMNdzSSuN6N0lT76med67r19PuK67harv+8KEJYRYwcLzvI4wrIRKIOZ4PsDUcZyRVlaLQJpygj2BvlYOAinKGR4Emlo5ElItSQIVoxwElpQ8lAi91Tsr7mMQ2pQj3AhmtDtHThhQVP89yzRbTphQnrAxysHOWWho20AcU2pQ5oSX1IjhNArhNGSMGM65GH0vfyTtH7Qiorobd7j8E79ycOuuMI+7RGolbduuU9cwRJzpxqh6bkEXcWea+UeAAQB9D4Bx2+00xAAAAABJRU5ErkJggg==">
-                    </button>
                 </div>
             </div>
         </div>
@@ -66,27 +65,27 @@
                 <div class="thumbnail">
                     <img v-bind:src="'img/small/'+msg.img[0]" v-on:click="open(msg.img[0])">
                     <div class="caption">
-                        <h3>{{msg.years}}</h3>
-                        <p><strong>客户：</strong>{{msg.customer}}</p>
-                        <p><strong>培训主题：</strong>{{maxSlice(msg.title)}}</p>
-                        <p><strong>培训师：</strong>{{msg.teacher}}</p>
+                        <h3 v-cloak>{{msg.years}}</h3>
+                        <p v-cloak><strong>客户：</strong>{{msg.customer}}</p>
+                        <p v-cloak><strong>培训主题：</strong>{{maxSlice(msg.title)}}</p>
+                        <p v-cloak><strong>培训师：</strong>{{msg.teacher}}</p>
                     </div>
                 </div>
             </div>
             <!-- infor-content end-->
         </div>
         <!-- bk-footer start -->
-       <footer class="bk-footer">
-         <div class="copy">
-            <div class="copy-content min-width-center">
-                <img src="img/logo/head.png" alt="" />
-                <div style="height: auto;width: auto;">
-                    <p>深圳市南山区桃园路田厦翡翠明珠1B-1802 </p>
-                   <p> 王德志老师 电话:0755-82780030,13502813240 邮箱:wdz13502813240@outlook.com 微信:13502813240</p>
+        <footer class="bk-footer">
+            <div class="copy">
+                <div class="copy-content min-width-center">
+                    <img src="img/logo/head.png" alt="" />
+                    <div style="height: auto;width: auto;">
+                        <p>深圳市南山区桃园路田厦翡翠明珠1B-1802 </p>
+                        <p> 王德志老师 电话:0755-82780030,13502813240 邮箱:wdz13502813240@outlook.com 微信:13502813240</p>
+                    </div>
                 </div>
             </div>
-        </div>
-       </footer>
+        </footer>
         <!-- information-pops end -->
         <script type="text/javascript" src="./static/bk-os-v2/js/jquery-1.10.2.min.js?v=3.0"></script>
         <script type="text/javascript" src="./static/bk-os-v2/js/jquery.mCustomScrollbar.concat.min.js"></script>
@@ -114,7 +113,7 @@ new Vue({
         },
         open(id) {
             // this.setCookie("id",123,1);
-            location.href='popularize.html?id='+id;
+            location.href = 'popularize.html?id=' + id;
         },
         setCookie: function(cname, cvalue, exdays) {
             var d = new Date();
