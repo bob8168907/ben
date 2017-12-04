@@ -2502,7 +2502,7 @@ header .bk-nav .helplist .more-list-content {
 .bk-index .bk-product-series {
     width: 1180px;
     margin: 0 auto;
-    padding: 100px 0 100px 0;
+    padding: 100px 0 0px 0;
     background: #fff;
 }
 
@@ -2712,7 +2712,7 @@ header .bk-nav .helplist .more-list-content {
 }
 
 .bk-index .bk-cloud-system {
-    /*padding: 80px 0 0;*/
+    padding: 80px 0 0;
 }
 
 .bk-index .bk-cloud-system h3 {
