@@ -68,7 +68,7 @@ b {
 
 body {
     min-width: 1180px;
-    font-size: 14px;
+    font-size: 16px;
     font-family: 'pingFang-SC-Regular', '微软雅黑', Arial;
     /* font-family:'微软雅黑',;*/
 }
@@ -204,7 +204,7 @@ input[type=number]::-webkit-outer-spin-button {
     margin-left: -75px;
     line-height: 42px;
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
     color: #666;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     -webkit-transition: all .5s;
@@ -261,7 +261,7 @@ input[type=number]::-webkit-outer-spin-button {
     background: #FFF;
     text-align: center;
     line-height: 36px;
-    font-size: 14px;
+    font-size: 16px;
     color: #878996;
     border: 1px solid #e5e5e5;
     -webkit-border-radius: 3px;
@@ -369,7 +369,7 @@ header a {
 
 header .bk-nav {
     float: left;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 header .bk-nav li {
@@ -476,7 +476,7 @@ header .bk-nav .helplist a {
     display: block;
     color: #9b9ca8;
     width: 88px;
-    font-size: 14px;
+    font-size: 16px;
     box-sizing: border-box;
 }
 
@@ -492,7 +492,7 @@ header .bk-nav .helplist a:hover {
 header .bk-nav .helplist p {
     letter-spacing: 0;
     margin: 10px 0 0 0;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 header .bk-login {
@@ -1101,7 +1101,7 @@ header .bk-nav .helplist .more-list-content {
 
 .bk-information .form-infor .form-group label {
     color: #999;
-    font-size: 14px;
+    font-size: 16px;
     padding: 0 10px;
 }
 
@@ -1131,7 +1131,7 @@ header .bk-nav .helplist .more-list-content {
     padding: 0 10px;
     border: none;
     color: #7b7d8a;
-    font-size: 14px;
+    font-size: 16px;
     box-sizing: border-box;
     appearance: none;
     -webkit-appearance: none;
@@ -1700,7 +1700,7 @@ header .bk-nav .helplist .more-list-content {
     padding: 0 10px;
     border: none;
     color: #7e7f87;
-    font-size: 14px;
+    font-size: 16px;
     box-sizing: border-box;
     appearance: none;
     -webkit-appearance: none;
@@ -1763,7 +1763,7 @@ header .bk-nav .helplist .more-list-content {
     padding: 20px 10px;
     border: none;
     color: #7e7f87;
-    font-size: 14px;
+    font-size: 16px;
     box-sizing: border-box;
     appearance: none;
     -webkit-appearance: none;
@@ -1851,7 +1851,7 @@ header .bk-nav .helplist .more-list-content {
 .warning-bar .warn-text {
     display: inline-block;
     vertical-align: middle;
-    font-size: 14px;
+    font-size: 16px;
     color: #4f515e;
     margin-left: 10px;
 }
@@ -2366,7 +2366,7 @@ header .bk-nav .helplist .more-list-content {
     height: 100%;
     text-align: center;
     padding: 10px 8px;
-    font-size: 14px;
+    font-size: 16px;
     color: #FFF;
     position: relative;
     line-height: 16px;
@@ -2769,7 +2769,7 @@ header .bk-nav .helplist .more-list-content {
     position: relative;
     height: 20px;
     line-height: 20px;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .bk-product .function-ms .ylist dt:before {
@@ -3042,7 +3042,7 @@ header .bk-nav .helplist .more-list-content {
 
 .bar-list-item h3 {
     line-height: 18px;
-    font-size: 14px;
+    font-size: 16px;
     padding-left: 10px;
     position: relative;
     font-weight: bold;
@@ -3123,7 +3123,7 @@ header .bk-nav .helplist .more-list-content {
 
 .leftTitle2 {
     width: 35px;
-    font-size: 14px;
+    font-size: 16px;
     color: #96a2ff;
     font-weight: bold;
     line-height: 1;
@@ -3212,7 +3212,7 @@ header .bk-nav .helplist .more-list-content {
 .floor-c .bar-xlist {
     width: 134px;
     height: 100%;
-    font-size: 14px;
+    font-size: 16px;
     position: relative;
 }
 

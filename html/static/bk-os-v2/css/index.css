@@ -220,7 +220,7 @@ input[type=number]::-webkit-outer-spin-button {
     margin-left: -75px;
     line-height: 42px;
     text-align: center;
-    font-size: 14px;
+    font-size: 16px;
     color: #666;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     -webkit-transition: all .5s;
@@ -277,7 +277,7 @@ input[type=number]::-webkit-outer-spin-button {
     background: #FFF;
     text-align: center;
     line-height: 36px;
-    font-size: 14px;
+    font-size: 16px;
     color: #878996;
     border: 1px solid #e5e5e5;
     -webkit-border-radius: 3px;
@@ -385,7 +385,7 @@ header a {
 
 header .bk-nav {
     float: left;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 header .bk-nav li {
@@ -492,7 +492,7 @@ header .bk-nav .helplist a {
     display: block;
     color: #9b9ca8;
     width: 88px;
-    font-size: 14px;
+    font-size: 16px;
     box-sizing: border-box;
 }
 
@@ -508,7 +508,7 @@ header .bk-nav .helplist a:hover {
 header .bk-nav .helplist p {
     letter-spacing: 0;
     margin: 10px 0 0 0;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 header .bk-login {
@@ -1114,7 +1114,7 @@ header .bk-nav .helplist .more-list-content {
 
 .bk-information .form-infor .form-group label {
     color: #999;
-    font-size: 14px;
+    font-size: 16px;
     padding: 0 10px;
 }
 
@@ -1144,7 +1144,7 @@ header .bk-nav .helplist .more-list-content {
     padding: 0 10px;
     border: none;
     color: #7b7d8a;
-    font-size: 14px;
+    font-size: 16px;
     box-sizing: border-box;
     appearance: none;
     -webkit-appearance: none;
@@ -1713,7 +1713,7 @@ header .bk-nav .helplist .more-list-content {
     padding: 0 10px;
     border: none;
     color: #7e7f87;
-    font-size: 14px;
+    font-size: 16px;
     box-sizing: border-box;
     appearance: none;
     -webkit-appearance: none;
@@ -1776,7 +1776,7 @@ header .bk-nav .helplist .more-list-content {
     padding: 20px 10px;
     border: none;
     color: #7e7f87;
-    font-size: 14px;
+    font-size: 16px;
     box-sizing: border-box;
     appearance: none;
     -webkit-appearance: none;
@@ -1864,7 +1864,7 @@ header .bk-nav .helplist .more-list-content {
 .warning-bar .warn-text {
     display: inline-block;
     vertical-align: middle;
-    font-size: 14px;
+    font-size: 16px;
     color: #4f515e;
     margin-left: 10px;
 }
@@ -2423,14 +2423,14 @@ header .bk-nav .helplist .more-list-content {
 }
 
 .describe-text {
-    font-size: 14px;
+    font-size: 16px;
     color: #7b7d8a;
     line-height: 25px;
     letter-spacing: 1px;
 }
 
 .bk-index .bk-advantage .advantage-container .describe-text {
-    font-size: 14px;
+    font-size: 16px;
     color: #7b7d8a;
     line-height: 25px;
     letter-spacing: 1px;
@@ -2502,7 +2502,7 @@ header .bk-nav .helplist .more-list-content {
 .bk-index .bk-product-series {
     width: 1180px;
     margin: 0 auto;
-    padding: 60px 0 100px 0;
+    padding: 100px 0 100px 0;
     background: #fff;
 }
 
@@ -2547,7 +2547,7 @@ header .bk-nav .helplist .more-list-content {
 
 .product-classify3{
      width: 100%;
-    min-height: 560px;
+    min-height: 800px;
     background: url(../images/index/index3.png) no-repeat center center;
 }
 
@@ -2602,7 +2602,7 @@ header .bk-nav .helplist .more-list-content {
 }
 
 .bk-index .bk-eight-function {
-    padding-top: 80px;
+    padding-top: 100px;
     height: 708px;
     width: 100%;
     padding: 80px 0 0 0;
@@ -2698,7 +2698,7 @@ header .bk-nav .helplist .more-list-content {
 .bk-index .bk-eight-function .eight-function-container .hover-hid-box p {
     line-height: 26px;
     color: #fff;
-    font-size: 14px;
+    font-size: 16px;
     text-align: justify;
     letter-spacing: 1px;
 }
@@ -2720,18 +2720,18 @@ header .bk-nav .helplist .more-list-content {
 }
 
 .bk-index .bk-cloud-system h5 {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .bk-index .bk-cloud-system p {
-    font-size: 14px;
+    font-size: 16px;
     color: #666;
     line-height: 24px;
 }
 
 .bk-index .bk-cloud-system .say-img {
     position: relative;
-    height: 704px;
+    height: 300px;
     background: url(../images/index/say_img.jpg) no-repeat center center;
     margin-bottom: 100px;
 }
@@ -2744,8 +2744,8 @@ header .bk-nav .helplist .more-list-content {
 .bk-index .bk-cloud-system .industry-say-item.industry1 {
     position: absolute;
     left: 50%;
-    bottom: 325px;
-    margin-left: -455px;
+    bottom: 125px;
+    margin-left: -320px;
 }
 
 .bk-index .bk-cloud-system .industry-say-item.industry1 .say-circle {
@@ -2772,8 +2772,8 @@ header .bk-nav .helplist .more-list-content {
 .bk-index .bk-cloud-system .industry-say-item.industry2 {
     position: absolute;
     left: 50%;
-    margin-left: -300px;
-    bottom: 325px;
+    bottom: 125px;
+    margin-left: -230px;
 }
 
 .bk-index .bk-cloud-system .industry-say-item.industry2 .say-circle {
@@ -2800,8 +2800,8 @@ header .bk-nav .helplist .more-list-content {
 .bk-index .bk-cloud-system .industry-say-item.industry3 {
     position: absolute;
     left: 50%;
-    bottom: 325px;
-    margin-left: -150px;
+    bottom: 125px;
+    margin-left: -130px;
 }
 
 .bk-index .bk-cloud-system .industry-say-item.industry3 .say-circle {
@@ -2828,8 +2828,8 @@ header .bk-nav .helplist .more-list-content {
 .bk-index .bk-cloud-system .industry-say-item.industry4 {
     position: absolute;
     left: 50%;
-    bottom: 325px;
-    margin-left: 0px;
+    bottom: 125px;
+    margin-left: -30px;
 }
 
 .bk-index .bk-cloud-system .industry-say-item.industry4 .say-circle {
@@ -2858,8 +2858,8 @@ header .bk-nav .helplist .more-list-content {
     height: 42px;
     position: absolute;
     left: 50%;
-    bottom: 325px;
-    margin-left: 150px;
+    bottom: 125px;
+    margin-left: 70px;
 }
 
 .bk-index .bk-cloud-system .industry-say-item.industry5 .say-circle {
@@ -2917,7 +2917,7 @@ header .bk-nav .helplist .more-list-content {
     left: 50%;
     margin-left: -155px;
     width: 310px;
-    font-size: 14px;
+    font-size: 16px;
     background: rgba(255, 255, 255, 0.5);
     padding: 25px 25px;
     border: 1px solid #d4d6d9;
@@ -3216,7 +3216,7 @@ header .bk-nav .helplist .more-list-content {
 }
 
 .bk-index .bk-advantage .advantage-container {
-    padding-top: 60px;
+    padding-top: 100px;
 }
 
 .bk-index .bk-product-series .product-series-container {
@@ -3254,7 +3254,7 @@ header .bk-nav .helplist .more-list-content {
 
 .bk-index .bk-product-activity .hot-content p {
     color: #7b7d8a;
-    font-size: 14px;
+    font-size: 16px;
     margin-left: 38px;
 }
 
