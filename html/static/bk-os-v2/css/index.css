@@ -220,7 +220,7 @@ input[type=number]::-webkit-outer-spin-button {
     margin-left: -75px;
     line-height: 42px;
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
     color: #666;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
     -webkit-transition: all .5s;
@@ -277,7 +277,7 @@ input[type=number]::-webkit-outer-spin-button {
     background: #FFF;
     text-align: center;
     line-height: 36px;
-    font-size: 16px;
+    font-size: 14px;
     color: #878996;
     border: 1px solid #e5e5e5;
     -webkit-border-radius: 3px;
@@ -385,7 +385,7 @@ header a {
 
 header .bk-nav {
     float: left;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 header .bk-nav li {
@@ -465,7 +465,7 @@ header .bk-nav .helplist {
 /*      header .bk-nav .helplist:before {
         position: absolute;
         left: 50%;
-        top: -16px;
+        top: -14px;
         content: "";
         border: 8px solid;
         border-color: transparent transparent #e5e5e5 transparent;
@@ -492,7 +492,7 @@ header .bk-nav .helplist a {
     display: block;
     color: #9b9ca8;
     width: 88px;
-    font-size: 16px;
+    font-size: 14px;
     box-sizing: border-box;
 }
 
@@ -508,7 +508,7 @@ header .bk-nav .helplist a:hover {
 header .bk-nav .helplist p {
     letter-spacing: 0;
     margin: 10px 0 0 0;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 header .bk-login {
@@ -559,7 +559,7 @@ header .bk-login .workbench-list {
 header .bk-login .workbench-list:before {
     position: absolute;
     left: 50%;
-    top: -16px;
+    top: -14px;
     content: "";
     border: 8px solid;
     border-color: transparent transparent #e5e5e5 transparent;
@@ -647,7 +647,7 @@ header .bk-login .logged-in-list {
     position: absolute;
     right: 0px;
     top: 47px;
-    width: 216px;
+    width: 214px;
     /*height: 173px;*/
     background: #fff;
     z-index: 98;
@@ -662,7 +662,7 @@ header .bk-login .logged-in-list {
 header .bk-login .logged-in-list:before {
     position: absolute;
     left: 78%;
-    top: -16px;
+    top: -14px;
     content: "";
     border: 8px solid;
     border-color: transparent transparent #e5e5e5 transparent;
@@ -691,7 +691,7 @@ header .bk-login .nickname {
 header .bk-login .nickname img {
     display: inline-block;
     vertical-align: middle;
-    margin-right: 16px;
+    margin-right: 14px;
 }
 
 header .bk-login .nickname:hover {
@@ -786,8 +786,9 @@ header .bk-nav .helplist .more-list-content {
 .bk-footer {
     min-width: 1180px;
     width: 100%;
-    height: 100px;
+    height: 300px;
     background: #090b1a;
+    background: url(../images/index/footer.jpg) no-repeat center center;
 }
 
 .bk-footer .footer-content {
@@ -801,7 +802,7 @@ header .bk-nav .helplist .more-list-content {
 }
 
 .bk-footer .footer-content dt {
-    font-size: 16px;
+    font-size: 14px;
     color: #fff;
     font-weight: bold;
     margin-bottom: 13px;
@@ -980,7 +981,7 @@ header .bk-nav .helplist .more-list-content {
     height: 60px;
     line-height: 60px;
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
     color: #7b7d8a;
     float: left;
     box-sizing: border-box;
@@ -1114,7 +1115,7 @@ header .bk-nav .helplist .more-list-content {
 
 .bk-information .form-infor .form-group label {
     color: #999;
-    font-size: 16px;
+    font-size: 14px;
     padding: 0 10px;
 }
 
@@ -1144,7 +1145,7 @@ header .bk-nav .helplist .more-list-content {
     padding: 0 10px;
     border: none;
     color: #7b7d8a;
-    font-size: 16px;
+    font-size: 14px;
     box-sizing: border-box;
     appearance: none;
     -webkit-appearance: none;
@@ -1548,7 +1549,7 @@ header .bk-nav .helplist .more-list-content {
 .else-item-info .bk-item-like i {
     display: inline-block;
     cursor: pointer;
-    width: 16px;
+    width: 14px;
     height: 14px;
     background: url(../images/help/like.png) no-repeat left center;
     vertical-align: 3px;
@@ -1691,7 +1692,7 @@ header .bk-nav .helplist .more-list-content {
     text-align: center;
     line-height: 30px;
     letter-spacing: 1px;
-    font-size: 16px;
+    font-size: 14px;
     color: #878996;
 }
 
@@ -1713,7 +1714,7 @@ header .bk-nav .helplist .more-list-content {
     padding: 0 10px;
     border: none;
     color: #7e7f87;
-    font-size: 16px;
+    font-size: 14px;
     box-sizing: border-box;
     appearance: none;
     -webkit-appearance: none;
@@ -1776,7 +1777,7 @@ header .bk-nav .helplist .more-list-content {
     padding: 20px 10px;
     border: none;
     color: #7e7f87;
-    font-size: 16px;
+    font-size: 14px;
     box-sizing: border-box;
     appearance: none;
     -webkit-appearance: none;
@@ -1813,7 +1814,7 @@ header .bk-nav .helplist .more-list-content {
     float: right;
     width: 182px;
     background: #57a3f1;
-    font-size: 16px;
+    font-size: 14px;
     color: #fff;
     text-align: center;
     height: 49px;
@@ -1864,7 +1865,7 @@ header .bk-nav .helplist .more-list-content {
 .warning-bar .warn-text {
     display: inline-block;
     vertical-align: middle;
-    font-size: 16px;
+    font-size: 14px;
     color: #4f515e;
     margin-left: 10px;
 }
@@ -2299,8 +2300,8 @@ header .bk-nav .helplist .more-list-content {
     width: 0;
     height: 0;
     margin: 0 auto;
-    border-left: 16px solid transparent;
-    border-right: 16px solid transparent;
+    border-left: 14px solid transparent;
+    border-right: 14px solid transparent;
     border-top: 28px solid rgba(254, 191, 0, 0.3);
     position: relative;
 }
@@ -2337,8 +2338,8 @@ header .bk-nav .helplist .more-list-content {
     width: 0;
     height: 0;
     margin: 0 auto;
-    border-left: 16px solid transparent;
-    border-right: 16px solid transparent;
+    border-left: 14px solid transparent;
+    border-right: 14px solid transparent;
     border-bottom: 28px solid rgba(254, 191, 0, 0.3);
     position: relative;
 }
@@ -2423,14 +2424,14 @@ header .bk-nav .helplist .more-list-content {
 }
 
 .describe-text {
-    font-size: 16px;
+    font-size: 14px;
     color: #7b7d8a;
     line-height: 25px;
     letter-spacing: 1px;
 }
 
 .bk-index .bk-advantage .advantage-container .describe-text {
-    font-size: 16px;
+    font-size: 14px;
     color: #7b7d8a;
     line-height: 25px;
     letter-spacing: 1px;
@@ -2587,7 +2588,7 @@ header .bk-nav .helplist .more-list-content {
     outline: none;
     border: none;
     color: #FFF;
-    font-size: 16px;
+    font-size: 14px;
     border-radius: 3px;
     background-color: #57a3f1;
     font-family: 'Microsoft YaHei';
@@ -2698,7 +2699,7 @@ header .bk-nav .helplist .more-list-content {
 .bk-index .bk-eight-function .eight-function-container .hover-hid-box p {
     line-height: 26px;
     color: #fff;
-    font-size: 16px;
+    font-size: 14px;
     text-align: justify;
     letter-spacing: 1px;
 }
@@ -2720,18 +2721,18 @@ header .bk-nav .helplist .more-list-content {
 }
 
 .bk-index .bk-cloud-system h5 {
-    font-size: 16px;
+    font-size: 14px;
 }
 
 .bk-index .bk-cloud-system p {
-    font-size: 16px;
+    font-size: 14px;
     color: #666;
     line-height: 24px;
 }
 
 .bk-index .bk-cloud-system .say-img {
     position: relative;
-    height: 300px;
+    height: 600px;
     background: url(../images/index/say_img.jpg) no-repeat center center;
     margin-bottom: 100px;
 }
@@ -2917,7 +2918,7 @@ header .bk-nav .helplist .more-list-content {
     left: 50%;
     margin-left: -155px;
     width: 310px;
-    font-size: 16px;
+    font-size: 14px;
     background: rgba(255, 255, 255, 0.5);
     padding: 25px 25px;
     border: 1px solid #d4d6d9;
@@ -3254,7 +3255,7 @@ header .bk-nav .helplist .more-list-content {
 
 .bk-index .bk-product-activity .hot-content p {
     color: #7b7d8a;
-    font-size: 16px;
+    font-size: 14px;
     margin-left: 38px;
 }
 

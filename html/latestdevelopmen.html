@@ -13,9 +13,7 @@
     <link href="./static/bk-os-v2/css/nav.css?v=3.0" rel="stylesheet">
     <link href="img/logo/logo.png" rel="Shortcut Icon">
     <style>
-    [v-cloak] {
-           display:none;
-        }
+   
     </style>
 </head>
 
@@ -65,10 +63,10 @@
                 <div class="thumbnail">
                     <img v-bind:src="'img/small/'+msg.img[0]" v-on:click="open(msg.img[0])">
                     <div class="caption">
-                        <h3 v-cloak>{{msg.years}}</h3>
-                        <p v-cloak><strong>客户：</strong>{{msg.customer}}</p>
-                        <p v-cloak><strong>培训主题：</strong>{{maxSlice(msg.title)}}</p>
-                        <p v-cloak><strong>培训师：</strong>{{msg.teacher}}</p>
+                        <h3 >{{msg.years}}</h3>
+                        <p ><strong>客户：</strong>{{msg.customer}}</p>
+                        <p ><strong>培训主题：</strong>{{maxSlice(msg.title)}}</p>
+                        <p ><strong>培训师：</strong>{{msg.teacher}}</p>
                     </div>
                 </div>
             </div>
@@ -114,23 +112,6 @@ new Vue({
         open(id) {
             // this.setCookie("id",123,1);
             location.href = 'popularize.html?id=' + id;
-        },
-        setCookie: function(cname, cvalue, exdays) {
-            var d = new Date();
-            d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
-            var expires = "expires=" + d.toUTCString();
-            document.cookie = cname + "=" + cvalue + "; " + expires;
-        },
-        //获取cookie
-        getCookie: function(cname) {
-            var name = cname + "=";
-            var ca = document.cookie.split(';');
-            for (var i = 0; i < ca.length; i++) {
-                var c = ca[i];
-                while (c.charAt(0) == ' ') c = c.substring(1);
-                if (c.indexOf(name) != -1) return c.substring(name.length, c.length);
-            }
-            return "";
         }
     }
 });
