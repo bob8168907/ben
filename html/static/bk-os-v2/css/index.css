@@ -2449,6 +2449,7 @@ header .bk-nav .helplist .more-list-content {
     width: 100%;
     background-color: #fff;
     height: 80px;
+    border-bottom: 1px solid #e5e5e5;
 }
 
 .bk-index .bk-product-activity .product-show-container {
@@ -3229,6 +3230,7 @@ header .bk-nav .helplist .more-list-content {
 .bk-index .bk-product-activity .product-show-box {
     border-left: 1px solid #e5e5e5;
     padding: 10px;
+
 }
 
 .bk-index .bk-product-activity a {
