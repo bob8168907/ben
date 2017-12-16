@@ -23,16 +23,16 @@
                     <tr>
                         <th>#</th>
                         <th>客户名称</th>
-                        <th width="">负责人</th>
-                        <th width="">省份</th>
+                        <th width="">客户类型</th>
+                        <th width="">创建时间</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr v-for="(value, index) in sourceList">
+                    <tr v-for="(value, index) in list">
                         <td>{{index}}</td>
-                        <td align="center">{{value.source}}</td>
-                        <td align="center">{{value.sourceen}}</td>
-                        <td align="center">否</td>
+                        <td align="center">{{value.customername}}</td>
+                        <td align="center">{{value.customertype == 1? '正式':临时}}</td>
+                        <td align="center">{{value.createdatetime}}</td>
                     </tr>
                 </tbody>
             </table>
@@ -41,7 +41,7 @@
 </template>
 
 <script>
-import axios from 'axios'
+
     export default {
         data: function(){
             return {
@@ -53,13 +53,12 @@ import axios from 'axios'
                     id: 0,
                     index: 0
                 },
-                sourceList: '' 
+                list: '' 
             }
         },
         beforeCreate: function() {
-             var self = this;
-               axios.get('http://www.ql-crm.com:8080/vsmsserver/initconfig/findGlobalList').then((res) => {
-                    self.sourceList=res.data.sourceAllList.sourceList;
+               this.$http.post(`${this.$.Global.appURL}/customer/customer/list`,{page:1,start:0,limit:25}).then((res) => {
+                    this.list=res.data.recordList;
                 })
 
         },

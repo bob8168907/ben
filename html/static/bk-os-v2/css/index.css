@@ -167,6 +167,9 @@ input[type=number]::-webkit-outer-spin-button {
     padding-left: 10px;
 }
 
+.pt40 {
+    padding-top: 30px;
+}
 .pl30 {
     padding-left: 30px;
 }
@@ -370,7 +373,7 @@ header {
 
 header .logo {
     float: left;
-    width: 290px;
+    width: 300px;
     position: relative;
 }
 
@@ -2445,7 +2448,7 @@ header .bk-nav .helplist .more-list-content {
 .bk-index .bk-product-activity {
     width: 100%;
     background-color: #fff;
-    height: 201px;
+    height: 80px;
 }
 
 .bk-index .bk-product-activity .product-show-container {
@@ -2604,7 +2607,7 @@ header .bk-nav .helplist .more-list-content {
 
 .bk-index .bk-eight-function {
     padding-top: 100px;
-    height: 708px;
+    height: 600px;
     width: 100%;
     padding: 80px 0 0 0;
     background: url(../images/index/function_bg.png) no-repeat center center;
@@ -2713,7 +2716,6 @@ header .bk-nav .helplist .more-list-content {
 }
 
 .bk-index .bk-cloud-system {
-    padding: 80px 0 0;
 }
 
 .bk-index .bk-cloud-system h3 {
@@ -2734,7 +2736,6 @@ header .bk-nav .helplist .more-list-content {
     position: relative;
     height: 600px;
     background: url(../images/index/say_img.jpg) no-repeat center center;
-    margin-bottom: 100px;
 }
 
 .bk-index .bk-cloud-system .industry-say-item .say-circle {
@@ -3217,7 +3218,7 @@ header .bk-nav .helplist .more-list-content {
 }
 
 .bk-index .bk-advantage .advantage-container {
-    padding-top: 100px;
+    padding-top: 65px;
 }
 
 .bk-index .bk-product-series .product-series-container {
@@ -3227,17 +3228,17 @@ header .bk-nav .helplist .more-list-content {
 
 .bk-index .bk-product-activity .product-show-box {
     border-left: 1px solid #e5e5e5;
-    padding: 35px 0 0 34px;
-    height: 118px;
+    padding: 10px;
 }
 
 .bk-index .bk-product-activity a {
-    height: 118px;
+    height: 90px;
 }
 
 .bk-index .bk-product-activity img {
     vertical-align: top;
-    margin-top: 3px;
+    margin: 3px 0 0 25px;
+    padding: 20px 0 0 0;
 }
 
 .bk-index .bk-product-activity .hot-content {
@@ -3250,7 +3251,7 @@ header .bk-nav .helplist .more-list-content {
     color: #4f515e;
     font-style: normal;
     font-size: 20px;
-    margin-left: 38px;
+    margin-left: 10px;
 }
 
 .bk-index .bk-product-activity .hot-content p {
