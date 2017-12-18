@@ -28,10 +28,10 @@
                     </tr>
                 </thead>
                 <tbody>
-                    <tr v-for="(value, index) in list">
+                    <tr v-for="(value, index) in list" @click='edit'> 
                         <td>{{index}}</td>
                         <td align="center">{{value.customername}}</td>
-                        <td align="center">{{value.customertype == 1? '正式':临时}}</td>
+                        <td align="center">{{value.customertype == 1? '正式':'临时'}}</td>
                         <td align="center">{{value.createdatetime}}</td>
                     </tr>
                 </tbody>
@@ -41,7 +41,6 @@
 </template>
 
 <script>
-
     export default {
         data: function(){
             return {
@@ -57,9 +56,15 @@
             }
         },
         beforeCreate: function() {
-               this.$http.post(`${this.$.Global.appURL}/customer/customer/list`,{page:1,start:0,limit:25}).then((res) => {
-                    this.list=res.data.recordList;
-                })
+           var qs = require('qs');
+           this.$http.post(`${this.$.Global.appURL}/customer/customer/list`,
+                qs.stringify({
+                     "page": 1,
+                     "start":0,
+                     "limit":25
+                })).then((res) => {
+                        this.list=res.data.recordList;
+                    })
 
         },
         computed:{
@@ -89,6 +94,9 @@
                         break;
                 }
                 return str;
+            },
+            edit(){
+                console.log(0);
             }
         }
     }
