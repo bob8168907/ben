@@ -31,11 +31,12 @@ import Plugins from 'plugins'
 import App from './App'
 //导入mock数据
 import './mock'
-
+//导入请求axios
 import axios from 'axios'
-
 Vue.prototype.$http = axios
-
+// util
+import util from './store/util'
+Vue.use(util);
 //使用element-ui
 Vue.use(ElementUI)
 
