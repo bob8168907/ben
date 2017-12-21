@@ -369,7 +369,7 @@ header a {
 
 header .bk-nav {
     float: left;
-    font-size: 16px;
+    font-size: 14px;
 }
 
 header .bk-nav li {
@@ -381,11 +381,6 @@ header .bk-nav li.active a {
     color: #fff;
 }
 
-header .bk-nav li>.bk-nav-list {
-    display: inline-block;
-    padding: 12px 23px;
-    position: relative;
-}
 
 header .bk-nav li>.bk-nav-list:hover {
     color: #fff;
