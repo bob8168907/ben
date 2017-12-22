@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>YellowMoon - Simple Landing Page</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Free singlepage web template created by GraphBerry">
+    <meta name="keywords" content="HTML5, Bootstrap 3, CSS3, javascript, PHP, Responsive, Mobile">
+    <meta name="author" content="GraphBerry.com"/>
+    <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400" rel="stylesheet">
+    <!-- Styles -->
+	<link rel="stylesheet" type="text/css" href="css/yellowmoon-font.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<header id="header">
+		
+		<!-- Section title -->
+		<h1 class="sr-only">YellowMoon | Home page</h1>
+
+	</header>
+
+		<section id="home" class="home">
+
+			<!-- Section title -->
+			<h2 class="sr-only">Home</h2>
+
+			<div class="l-align-both">
+	
+				<figure class="logo">
+					<img src="img/logo/yellowmoon_logo_01.svg" title="YellowMoon Logo" alt="Cartoon illustration of the moon">
+					<figcaption class="sr-only">YellowMoon Logo</figcaption>
+				</figure>
+
+				<!-- <span class="h3 -white">图像识别</span> -->
+
+				<span class="h1 -yellow">图像识别</span>
+				
+				<div style="float: left;height: 100px">
+
+					<input type="file" name="file" class="button" value="植物" @change="onUpload">
+				<!-- 	<a href="javascript:void(0)" class="button">Explore</a>
+					<a href="javascript:void(0)" class="button">Explore</a>
+					<a href="javascript:void(0)" class="button">Explore</a> -->
+				</div>
+				
+
+
+				<a href="#about" class="chevron-down smoothScroll">
+					<!-- <img class="icon" src="img/chevron_down_white.svg" title="Scroll down" alt="Chevron pointing downwards"> -->
+					<span class="sr-only">Scroll down</span>
+				</a>
+
+			</div>
+
+		</section> <!-- /.home -->
+
+	
+
+	<!-- Scripts -->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/libs/smooth-scroll.min.js"></script>
+	<script type="text/javascript" src="js/libs/modernizr.mq.js"></script>
+
+	<!-- Latest compiled and minified JavaScript Bootstrap-->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<!-- Custom JS -->
+	<script src="./js/jquery-2.1.4.min.js"></script>
+	<script src="./js/vue.js"></script>
+    <script type="text/javascript">
+        new Vue({
+            el: '#home',
+            data: '',
+			methods: {
+				onUpload(e) {
+					var formData = new FormData();
+					formData.append('file', e.target.files[0]);
+					formData.append('type', 'test');
+					$.ajax({
+						url: 'http://localhost:8088/api/list',
+						type: 'POST',
+						dataType: 'json',
+						cache: false,
+						data: formData,
+						processData: false,
+						contentType: false,
+						success: (res) => {
+							console.log(res);
+							alert(res.result[0].name);
+						},
+						error: function(err) {
+							alert("网络错误");
+
+						}
+           		 	});
+        	}}
+        });
+    </script>
+</body>
+</html>
