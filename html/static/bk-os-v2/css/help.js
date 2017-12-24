@@ -199,10 +199,7 @@ function likeAdd(vid) {
 $(function() {
     $("#toc").find('#mCSB_1_container').children('li').css('border-left', '2px solid #e6e6e6');
     // 滚动条MINIMAL-DARK效果
-    $("#toc").mCustomScrollbar({
-        setHeight: 315,
-        theme: "minimal-dark"
-    });
+   
 })
 
 //主要修定位不准确BUG
