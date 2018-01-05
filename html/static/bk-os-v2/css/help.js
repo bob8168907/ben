@@ -41,7 +41,7 @@ $('.bk-nav').find('.help-con').hover(function() {
 function listWidth() {
     // debugger
     var top = $(document).scrollTop();
-    if (top > 180) {
+    if (top > 600) {
         var left = parseInt($('.detail-title-right').offset().left);
         var w = parseInt($('.detail-title-right').width());
         // console.log(left);
