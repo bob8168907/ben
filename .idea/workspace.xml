@@ -2,16 +2,200 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47a756ae-ec23-47be-858c-14a58ea81902" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/img/logo/head.png" afterPath="$PROJECT_DIR$/html/img/logo/head.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/img/logo/logo1.jpg" afterPath="$PROJECT_DIR$/html/img/logo/logo1.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/img/logo/logo2.jpg" afterPath="$PROJECT_DIR$/html/img/logo/logo2.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/img/logo/logo3.jpg" afterPath="$PROJECT_DIR$/html/img/logo/logo3.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/img/logo/logo4.jpg" afterPath="$PROJECT_DIR$/html/img/logo/logo4.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/static/bk-os-v2/images/index/index1.png" afterPath="$PROJECT_DIR$/html/static/bk-os-v2/images/index/index1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/static/bk-os-v2/images/index/say_img.jpg" afterPath="$PROJECT_DIR$/html/static/bk-os-v2/images/index/say_img.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/index.html" afterPath="$PROJECT_DIR$/html/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/latestdevelopmen.html" afterPath="$PROJECT_DIR$/html/latestdevelopmen.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/html/static/bk-os-v2/css/index.css" afterPath="$PROJECT_DIR$/html/static/bk-os-v2/css/index.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/bbspromotion.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/course.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/coursesystem.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/coursesystem12.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/coursesystem21.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/coursesystems.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/1/1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/1/2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/1/3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/1/4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/1/5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/1/6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/1/a1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/1/a2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/1/a3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/bbs/c1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/bbs/c10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/bbs/c11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/bbs/c12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/bbs/c13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/bbs/c14.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/bbs/c15.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/bbs/c16.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/bbs/c17.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/bbs/c18.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/bbs/c19.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/bbs/c2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/bbs/c20.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/bbs/c21.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/bbs/c22.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/bbs/c3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/bbs/c4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/bbs/c5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/bbs/c6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/bbs/c7.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/bbs/c8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/bbs/c9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/bbs/fuhao.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/bbs/lfuhao.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/bbs/华侨城.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/bbs/华强方特.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/bbs/华润三九.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/bbs/星河集团.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/bbs/联合利华.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/bbs/金地.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/customerlogo/OPPO.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/customerlogo/东江环保.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/customerlogo/东风车城.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/customerlogo/东风车城公司.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/customerlogo/华侨城.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/customerlogo/招商蛇口.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/customerlogo/星河集团.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/customerlogo/碧桂园.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/customerlogo/联合利华.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/customerlogo/金地.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/customerlogo/金证.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/detail/10a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/detail/10b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/detail/11a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/detail/11b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/detail/12a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/detail/12b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/detail/13a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/detail/13b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/detail/14a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/detail/14b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/detail/15a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/detail/15b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/detail/16a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/detail/16b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/detail/17a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/detail/17b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/detail/18a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/detail/18b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/detail/19a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/detail/19b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/detail/1a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/detail/1b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/detail/20a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/detail/20b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/detail/21a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/detail/21b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/detail/22a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/detail/22b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/detail/2a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/detail/2b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/detail/3a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/detail/3b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/detail/4a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/detail/4b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/detail/5a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/detail/5b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/detail/6a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/detail/6b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/detail/7a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/detail/7b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/detail/8a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/detail/8b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/detail/9a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/detail/9b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/logo/101351509632635044.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/logo/136029933683380241.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/logo/230683359209492531.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/logo/foot1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/logo/head.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/logo/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/logo/logo1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/logo/logo2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/logo/logo3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/logo/logo4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/logo/图片3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/logo/微信图片_20171122143128.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/small/10a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/small/11a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/small/12a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/small/13a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/small/14a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/small/15a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/small/16a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/small/17a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/small/18a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/small/19a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/small/1a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/small/20a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/small/21a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/small/22a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/small/2a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/small/3a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/small/4a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/small/5a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/small/5b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/small/6a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/small/7a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/small/8a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/img/small/9a.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/js/1.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/js/2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/js/jquery-2.1.0.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/js/vue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/latestdevelopmen.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/static/bk-os-v2/artdialog/jquery.artDialog.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/static/bk-os-v2/artdialog/skins/icons/loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/static/bk-os-v2/artdialog/skins/simple.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/static/bk-os-v2/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/static/bk-os-v2/css/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/static/bk-os-v2/css/github-markdown.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/static/bk-os-v2/css/help.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/static/bk-os-v2/css/help.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/static/bk-os-v2/css/index.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/static/bk-os-v2/css/jquery.mCustomScrollbar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/static/bk-os-v2/css/jquery.toc.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/static/bk-os-v2/css/latestdevelopmen.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/static/bk-os-v2/css/mCustomScrollbar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/static/bk-os-v2/css/nav.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/static/bk-os-v2/css/product.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/static/bk-os-v2/css/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/static/bk-os-v2/images/index/1.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/static/bk-os-v2/images/index/banner_bg.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/static/bk-os-v2/images/index/brand_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/static/bk-os-v2/images/index/courseystemlog.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/static/bk-os-v2/images/index/footer.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/static/bk-os-v2/images/index/footer.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/static/bk-os-v2/images/index/footer.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/static/bk-os-v2/images/index/footer1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/static/bk-os-v2/images/index/function_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/static/bk-os-v2/images/index/icon01.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/static/bk-os-v2/images/index/icon02.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/static/bk-os-v2/images/index/icon03.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/static/bk-os-v2/images/index/icon04.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/static/bk-os-v2/images/index/index1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/static/bk-os-v2/images/index/index1.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/static/bk-os-v2/images/index/index2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/static/bk-os-v2/images/index/index3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/static/bk-os-v2/images/index/industry_circle.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/static/bk-os-v2/images/index/latestdevelopmen.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/static/bk-os-v2/images/index/say_img.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/static/bk-os-v2/images/index/say_img.psd" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/static/bk-os-v2/images/index/图片1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/static/bk-os-v2/images/index/图片2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/static/bk-os-v2/images/index/图片3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/static/bk-os-v2/images/index/图片4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/static/bk-os-v2/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/static/bk-os-v2/js/common.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/static/bk-os-v2/js/csrftoken.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/static/bk-os-v2/js/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/static/bk-os-v2/js/jquery-1.10.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/static/bk-os-v2/js/jquery.cookie.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/static/bk-os-v2/js/jquery.mCustomScrollbar.concat.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/static/bk-os-v2/js/settings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/test1.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/html/text.html" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -62,10 +246,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -73,15 +255,12 @@
               <item name="ben" type="b2602c69:ProjectViewProjectNode" />
               <item name="ben" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="ben" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ben" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -89,7 +268,7 @@
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ben_springboot" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -199,22 +378,23 @@
       <option name="presentableId" value="Default" />
       <updated>1513088193085</updated>
       <workItem from="1513088197819" duration="60000" />
+      <workItem from="1516113173133" duration="14000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60000" />
+    <option name="totallyTimeSpent" value="74000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.46205357" sideWeight="0.5042644" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Redis Servers" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="true" content_ui="tabs" />
+      <window_info id="Redis Servers" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959402" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Mongo Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32959402" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -223,17 +403,17 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.296875" sideWeight="0.49573562" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328125" sideWeight="0.4978678" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5170843" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919955" sideWeight="0.49573562" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32807216" sideWeight="0.4978678" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20735608" sideWeight="0.48928973" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20726496" sideWeight="0.51071024" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -263,7 +443,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>

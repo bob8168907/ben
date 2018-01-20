@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="baidu-site-verification" content="tgx2yxtjTZ" />
+    <!-- 公共css -->
+    <title>最新动态|和动力</title>
+    <!-- 相应页面css -->
+    <link rel="stylesheet" href="./static/bk-os-v2/css/bootstrap.min.css?v=3.0">
+    <link href="./static/bk-os-v2/css/nav.css?v=3.0" rel="stylesheet">
+    <link rel="stylesheet" href="./static/bk-os-v2/css/style.css" />
+    <link rel="stylesheet" href="./static/bk-os-v2/css/index.css" />
+     <link href="img/logo/logo.png" rel="Shortcut Icon">
+    <style>
+    .col-center-block {
+        float: none;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+     html{height:100%;}
+    body{height:115%;margin:0;padding:0;position:relative;}
+    footer{position:absolute;bottom:0;width:100%;height:20px;}
+    </style>
+</head>
+
+<body>
+    <!-- bk-header start -->
+    <!-- bk-header start -->
+    <header class="bk-header clearfix">
+        <div class="logo">
+            <h1><img src="img/logo/head.png" alt="" /></h1>
+        </div>
+        <ul class="bk-nav">
+            <li><a href="index.html" class="on bk-nav-list" style="color: #fff">首页</a></li>
+            <li><a href="coursesystem.html" class="bk-nav-list">专业课程体系</a></li>
+            <li><a href="latestdevelopmen.html" class="bk-nav-list">客户案例</a></li>
+            <li><a href="bbspromotion.html" class="bk-nav-list">论坛与公开课</a></li>
+        </ul>
+    </header>
+    <div class="container" style="margin: 100px auto 0 auto;width: 1060px">
+        <div class="row" v-for="msg in data">
+            <div class="thumbnail" v-if="msg.img[0]==id" style="padding: 50px 70px">
+                <div class="caption" style="line-height: 40px">
+                    <h2 style="line-height: 60px">{{msg.years}}</h2>
+                    <p><strong>客户：</strong>{{msg.customer}}</p>
+                    <p><strong>培训主题：</strong>{{msg.title}}</p>
+                    <p><strong>培训师：</strong>{{msg.teacher}}</p>
+                </div>
+                <div>
+                    <img v-bind:src="'img/detail/'+msg.img[0]">
+                    <img v-bind:src="'img/detail/'+msg.img[2]">
+                </div>
+            </div>
+            <!-- infor-content end-->
+        </div>
+    </div>
+    <!-- information-pops end -->
+    <footer class="bk-footer">
+        <div class="copy">
+            <div class="copy-content min-width-center">
+                <img src="img/logo/head.png" alt="" />
+                <div style="height: auto;width: auto;">
+                    <p>深圳市南山区桃园路田厦翡翠明珠1B-1802 </p>
+                    <p> 王德志老师 电话:0755-82780030,13502813240 邮箱:wdz13502813240@outlook.com 微信:13502813240</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="./static/bk-os-v2/js/jquery-1.10.2.min.js?v=3.0"></script>
+    <script type="text/javascript" src="./js/vue.js"></script>
+</body>
+<script type="text/javascript">
+function GetQueryString(name) {
+    var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)");
+    var r = window.location.search.substr(1).match(reg);
+    if (r != null) return unescape(r[2]);
+    return null;
+}
+new Vue({
+    el: '.container',
+    data: { data: "", id: GetQueryString("id") },
+    beforeCreate: function() {
+        var _self = this;
+        $.get('course.json', function(data) {
+            _self.data = data.data;
+        });
+    },
+    methods: {
+    }
+});
+</script>
+
+</html>

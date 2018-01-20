@@ -49,13 +49,14 @@
       }),
       //提交
       submit_form() {
+        console.log(123);
         this.$refs.form.validate((valid) => {
           if (!valid) return false
           //登录提交
           var qs = require('qs')
           var form = qs.stringify(this.form)
-          this.$http.post(`http://localhost:8088/login?${form}`,
-              ).then((res) => {
+          console.log(123);
+          this.$http.post(`http://localhost:8088/login?${form}`).then((res) => {
                 if(res.data.msg=='登录成功'){
                     this.set_user_info({
                         user: res.data,
